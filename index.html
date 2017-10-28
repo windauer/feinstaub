@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+    <div class="row" data-template="app:init">
+        <div class="col-md-8">
+            <div class="page-header">
+                <h1 data-template="config:app-title"/>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Temperature</th>
+                                <th>Humidity</th>
+                                <th>P1</th>
+                                <th>P2</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="templates:each?from=samples&amp;to=sample">
+                                <td data-template="app:temperature"/>
+                                <td data-template="app:humidity"/>
+                                <td data-template="app:p1"/>
+                                <td data-template="app:p2"/>
+                                <td data-template="app:timestamp"/>
+                            </tr>
+                        </tbody>
+                    </table>
+                        
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h2>Application Info</h2>
+            <div data-template="config:app-info"/>
+        </div>
+    </div>
+</div>

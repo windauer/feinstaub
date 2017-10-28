@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>XQuery Application to store and display "Feinstaubsensor" data</description>
+    <author>lasse</author>
+    <author>saa</author>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>feinstaub</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <permissions user="Saa" group="dba" mode="rw-rw-r--"/>
+<deployed>2017-10-28T21:19:29.661+02:00</deployed>
+</meta>
