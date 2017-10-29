@@ -4,7 +4,7 @@ import module namespace config="https://lasy.net/feinstaubsensor/config" at " /d
 import module namespace http = "http://expath.org/ns/http-client";
 import module namespace xqjson="http://xqilla.sourceforge.net/lib/xqjson";
 
-declare variable $local:sensor-ids := ("2521");
+declare variable $local:sensor-ids := ("2125","2126");
 
 
 declare function local:update-sensor-data() {
@@ -22,7 +22,7 @@ declare function local:load-and-store-sensor-data($sensor-id) {
     let $req := <http:request href="{$url}" method="get"/>
     (: send http request and store result :)
     let $http-response := http:send-request($req)
-    return 
+    let $load-new-data :=  
         if ($http-response[1]/@status = "200") then (
             (: parse json :)
             let $json := parse-json(util:binary-to-string($http-response[2]))
@@ -36,6 +36,10 @@ declare function local:load-and-store-sensor-data($sensor-id) {
             return
                 $xml
         ) else ()
+    return
+        if($load-new-data)
+            then (local:reformat-xml-data())
+            else ("error")
 };
 
 declare function local:json-to-xml($filename, $sensor-id, $json){
@@ -50,7 +54,7 @@ declare function local:json-to-xml($filename, $sensor-id, $json){
                     }
 
 
-        let $store-data := xmldb:store($config:app-root || "/data/xml", $sensor-id || "-" || $entry?id || ".xml", $sample) 
+        let $store-data := xmldb:store($config:app-root || "/data/xml", $entry?id || "-" || $sensor-id || ".xml", $sample) 
         return
             $sample
     
@@ -89,6 +93,56 @@ declare function local:parse-sensor-data($sensor-data){
                 $data?value
             }
 };
+
+declare function local:reformat-xml-data() {
+  let $raw-samples := collection($config:app-root || "/data/xml")//sample
+  for $timestamp in distinct-values($raw-samples/@timestamp)          
+            let $samples := $raw-samples[@timestamp = $timestamp]
+            let $sensor-id := $samples[1]/@sensor-id/string()
+            let $timestamp := $samples[1]/@timestamp/string()
+            let $location-id := $samples[1]/location/@id/string()
+            let $location-lat := $samples[1]/location/@latitude/string()
+            let $location-long := $samples[1]/location/@longitude/string()
+            let $location-country := $samples[1]/location/@country/string()
+            
+            let $aggregated-sample := 
+                <sample timestamp="{$timestamp}" 
+                        location-id="{$location-id}" latitude="{$location-lat}" 
+                        longitude="{$location-long}" country="{$location-country}">
+                        
+                    <sensor id="{$samples[1]/sensor/@id/string()}" 
+                            sample-id="{$samples[1]/@id/string()}" 
+                            pin="{$samples[1]/sensor/@pin/string()}">
+                        {   
+                            $samples[1]/sensor/type, 
+                            $samples[1]/P1,
+                            $samples[1]/P2,
+                            $samples[1]/temperature,
+                            $samples[1]/humidity
+                        }
+                    </sensor>
+                    <sensor id="{$samples[2]/sensor/@id/string()}" 
+                            sample-id="{$samples[2]/@id/string()}" 
+                            pin="{$samples[2]/sensor/@pin/string()}">
+                        {   
+                            $samples[2]/sensor/type, 
+                            $samples[2]/P1,
+                            $samples[2]/P2,
+                            $samples[2]/temperature,
+                            $samples[2]/humidity
+                        }
+                    </sensor>                            
+                </sample>
+
+            let $ts-1 := replace($aggregated-sample/@timestamp," ", "-")
+            let $ts-2 := replace($ts-1, ":", "-")
+            let $filename := "sample-" || $ts-2 || ".xml"
+            let $store-sample := xmldb:store($config:app-root || "/data/sensor/3389190/", $filename , $aggregated-sample) 
+            return
+                $aggregated-sample      
+        
+};
+
 
 (:  let $login := xmldb:login("/", $config:user,$config:pwd) :) 
 

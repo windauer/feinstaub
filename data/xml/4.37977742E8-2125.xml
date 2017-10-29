@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sample id="4.37977742E8" sensor-id="2125" timestamp="2017-10-29 00:44:49">
+    <location id="1069" latitude="52.511" longitude="13.424" country="DE"/>
+    <sensor id="2125" pin="1">
+        <type id="14" name="SDS011" manufacturer="Nova Fitness"/>
+    </sensor>
+    <P1 id="9.70270438E8">2.90</P1>
+    <P2 id="9.70270439E8">2.30</P2>
+</sample>

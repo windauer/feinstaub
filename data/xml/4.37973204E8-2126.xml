@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sample id="4.37973204E8" sensor-id="2126" timestamp="2017-10-29 00:42:23">
+    <location id="1069" latitude="52.511" longitude="13.424" country="DE"/>
+    <sensor id="2126" pin="7">
+        <type id="9" name="DHT22" manufacturer="various"/>
+    </sensor>
+    <temperature id="9.70260865E8">11.80</temperature>
+    <humidity id="9.70260866E8">98.90</humidity>
+</sample>

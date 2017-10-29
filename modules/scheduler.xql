@@ -28,5 +28,5 @@ local:start-job()
 local:show-job()
 :)
 <result>
-    {local:start-job()}
+    {local:show-job()}
 </result>

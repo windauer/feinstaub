@@ -5,10 +5,10 @@ import module namespace config="https://lasy.net/feinstaubsensor/config" at "con
 import module namespace http = "http://expath.org/ns/http-client";
 
 
-let $feinstaub-data := collection($config:app-root || "/data/xml")//sample
-
 let $url := "http://api.luftdaten.info/static/v1/sensor/2125/"
 let $req := <http:request href="{$url}" method="get"/>
-let $res := http:send-request($req)[2]
+
+let $http-response := http:send-request($req)
+let $json-as-string := util:binary-to-string($http-response[2])
 return 
-    util:binary-to-string($res)
+    $json-as-string
