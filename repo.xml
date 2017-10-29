@@ -11,6 +11,6 @@
     <target>feinstaub</target>
     <prepare>pre-install.xql</prepare>
     <finish/>
-    <permissions xmlns:_5="http://www.w3.org/2000/xmlns/" xmlns:repo="http://exist-db.org/xquery/repo" password="" user="Saa" group="dba" mode="rw-rw-r--" _5:#unknown="http://exist-db.org/xquery/repo"/>
+    <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="" user="Saa" group="dba" mode="rw-rw-r--"/>
 
 </meta>
