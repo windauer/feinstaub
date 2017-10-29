@@ -2,63 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3044e0a-d3eb-40f9-8a6a-060158ffd7b0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-13-38.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-13-54.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-14-36.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-16-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-17-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-18-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-19-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-20-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-21-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-22-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-23-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-24-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-25-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-26-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-27-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-28-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-29-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-30-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-31-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-32-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-33-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-34-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-35-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-36-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-37-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-38-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-39-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-40-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-41-00.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-41-03.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-41-25.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-41-33.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-41-34.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-41-35.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-41-37.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/sensor-2521-2017-10-29T00-41-42.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37687743E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37692291E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37696807E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37701348E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37705858E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37710389E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37714918E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37719442E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37724019E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37728557E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37733148E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37737666E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37742197E8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xml/2521-4.37746745E8.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/app.xql" afterPath="$PROJECT_DIR$/modules/app.xql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-39-57.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-39-57.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-44-49.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-44-49.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cronjob.xql" afterPath="$PROJECT_DIR$/modules/cronjob.xql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scheduler.xql" afterPath="$PROJECT_DIR$/modules/scheduler.xql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/test-query.xql" afterPath="$PROJECT_DIR$/modules/test-query.xql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo.xml" afterPath="$PROJECT_DIR$/repo.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +21,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="data.tsv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data.tsv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data-temp.tsv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-temp.tsv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -91,6 +64,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T23-26-08.xml" />
+        <option value="$PROJECT_DIR$/data-temp.tsv" />
       </list>
     </option>
   </component>
@@ -254,6 +228,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -269,7 +244,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -329,6 +304,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="320" lean-forward="false" selection-start-line="0" selection-start-column="318" selection-end-line="0" selection-end-column="320" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-temp.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>

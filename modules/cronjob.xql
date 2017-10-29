@@ -144,6 +144,7 @@ declare function local:reformat-xml-data() {
 };
 
 
-(:  let $login := xmldb:login("/", $config:user,$config:pwd) :) 
-
-local:update-sensor-data()
+let $login := xmldb:login("/", "admin","" ) 
+let $log := util:log("info", "pulling Feinstaub data")
+return
+    local:update-sensor-data()
