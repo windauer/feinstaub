@@ -6,7 +6,7 @@ import module namespace scheduler="http://exist-db.org/xquery/scheduler" at "jav
 declare namespace sc="http://exist-db.org/xquery/scheduler";
 
 declare variable $local:job-name := "scrape-luftdaten";
-declare variable $local:cron := "0 * * * * ? *";
+declare variable $local:cron := "0 */2 * * * ? *";
 
 declare function local:start-job() {
     scheduler:schedule-xquery-cron-job($config:app-root || "/modules/cronjob.xql", $local:cron, $local:job-name)

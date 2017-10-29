@@ -1,45 +1,351 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3044e0a-d3eb-40f9-8a6a-060158ffd7b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/feinstaub-0.1.xar" afterPath="$PROJECT_DIR$/build/feinstaub-0.1.xar" />
+    <list default="true" id="d3044e0a-d3eb-40f9-8a6a-060158ffd7b0" name="Default" comment="* move d3 data in data dir, added line chart graphs for temperature, humidity, p1 and p2 values">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/d3-humidity.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/d3-p1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/d3-p2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/data-Humidity.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/data-P1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/data-P2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T16-51-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T16-52-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T16-53-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T16-54-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T16-55-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T16-56-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T16-57-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T16-58-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T16-59-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-00-52.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-01-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-02-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-03-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-04-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-05-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-06-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-07-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-08-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-09-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-10-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-11-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-12-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-13-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-14-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-15-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-16-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-17-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-18-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-19-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-20-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-21-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-22-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-23-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-24-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-25-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-26-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-27-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-28-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-29-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-30-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-31-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-32-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-33-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-34-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-35-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-36-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-37-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-38-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-39-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-40-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-41-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-42-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-43-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-44-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-45-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-46-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-47-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-48-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-49-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-50-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-51-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-52-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-53-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-54-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-55-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-56-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-57-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-58-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T17-59-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-01-01.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-02-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-03-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-04-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-05-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-06-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-07-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-08-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-09-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-10-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-11-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-12-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-13-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-14-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-15-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-16-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T18-17-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T21-43-24.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T21-43-37.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T21-45-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T22-29-59.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T23-15-25.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T23-26-23.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T23-28-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T23-28-33.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T16-51-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T16-52-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T16-53-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T16-54-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T16-55-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T16-56-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T16-57-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T16-58-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T16-59-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-00-52.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-01-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-02-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-03-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-04-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-05-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-06-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-07-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-08-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-09-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-10-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-11-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-12-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-13-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-14-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-15-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-16-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-17-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-18-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-19-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-20-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-21-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-22-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-23-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-24-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-25-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-26-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-27-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-28-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-29-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-30-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-31-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-32-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-33-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-34-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-35-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-36-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-37-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-38-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-39-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-40-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-41-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-42-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-43-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-44-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-45-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-46-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-47-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-48-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-49-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-50-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-51-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-52-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-53-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-54-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-55-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-56-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-57-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-58-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T17-59-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-01-01.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-02-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-03-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-04-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-05-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-06-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-07-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-08-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-09-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-10-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-11-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-12-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-13-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-14-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-15-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-16-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T18-17-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T21-43-24.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T21-43-37.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T21-45-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T22-29-59.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T23-15-25.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T23-26-23.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T23-28-00.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/sensor-2126-2017-10-29T23-28-33.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-15-50-00.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-15-52-26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-15-54-51.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-15-57-17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-15-59-42.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-02-08.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-04-34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-06-59.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-09-25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-09-26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-11-51.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-14-16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-14-17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-16-42.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-19-07.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-21-33.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-23-58.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-26-25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-28-50.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-31-16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-33-42.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-36-08.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-38-33.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-40-59.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-43-25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-45-50.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-48-16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-50-41.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-53-07.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-55-32.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-16-57-58.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-17-00-23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-17-02-49.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-17-05-14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-17-07-39.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-17-07-40.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-17-10-06.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-17-12-31.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-17-14-57.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-20-38-52.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-20-41-18.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-20-43-43.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-21-24-58.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-21-27-24.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-22-11-05.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-22-13-31.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-22-23-15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-22-25-41.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39680096E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.396801E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39684752E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.3968475E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39689392E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39689397E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39694033E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39694036E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39698672E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39698674E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39703313E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39703318E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39707931E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39707934E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39712549E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39712551E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39717219E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39717222E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39721833E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39721839E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39726466E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.3972647E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39731103E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.397311E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39735755E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.3973576E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39740343E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39740346E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39744919E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39744922E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39749509E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39749512E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39754082E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39754084E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39758652E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39758656E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39763224E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39763225E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39767799E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39767801E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39772381E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39772384E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39776951E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39776953E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39781524E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39781527E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39786107E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39786109E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39790645E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39790647E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39795222E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.3979522E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39799768E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39799771E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39804332E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39804333E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39808927E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.3980893E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39813482E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39813485E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39818021E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39818025E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39822567E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39822569E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39827112E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39827119E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39831666E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39831667E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39836216E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39836221E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.39840747E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.3984075E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40226703E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40226706E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40231289E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40231292E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40235861E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40235864E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40313495E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40313496E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40318089E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40318092E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40400775E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40400779E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40405429E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40405433E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40423943E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40423946E8-2126.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40428601E8-2125.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/xml/4.40428603E8-2126.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data-temp.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data.tsv" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data-temp.json" afterPath="$PROJECT_DIR$/data/data-Temperature.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-temp.tsv" afterPath="$PROJECT_DIR$/data-temp.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-42-23.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-42-23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-47-15.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-47-15.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-52-06.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-52-06.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-54-32.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-54-32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-56-57.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-56-57.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-09-05.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-09-05.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-11-31.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-11-31.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-13-57.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-13-57.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-16-22.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-16-22.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-21-13.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-21-13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-38-12.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-38-12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-12-42.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-12-42.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-15-07.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-15-07.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-17-33.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-17-33.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-19-58.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-19-58.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-24-49.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-24-49.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-29-40.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-29-40.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-34-31.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-34-31.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-41-48.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-41-48.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-44-14.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-44-14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-51-32.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-51-32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-53-58.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-53-58.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-56-23.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-56-23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-58-49.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-58-49.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-01-14.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-01-14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-03-40.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-03-40.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-10-56.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-10-56.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-13-22.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-13-22.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-15-48.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-15-48.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-20-39.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-20-39.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-23-04.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-23-04.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-25-30.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-25-30.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d3-temp.html" afterPath="$PROJECT_DIR$/d3-temp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T02-00-16.json" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T02-00-16.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T02-00-19.json" afterPath="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T02-00-19.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expath-pkg.xml" afterPath="$PROJECT_DIR$/expath-pkg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cronjob.xql" afterPath="$PROJECT_DIR$/modules/cronjob.xql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/json-generator.xql" afterPath="$PROJECT_DIR$/modules/json-generator.xql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scheduler.xql" afterPath="$PROJECT_DIR$/modules/scheduler.xql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/tsv-generator.xql" afterPath="$PROJECT_DIR$/modules/tsv-generator.xql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/page.html" afterPath="$PROJECT_DIR$/templates/page.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,12 +356,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="data-temp.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-temp.json">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="sensor-2125-2017-10-29T02-00-16.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T02-00-16.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="273" column="1" lean-forward="false" selection-start-line="273" selection-start-column="1" selection-end-line="273" selection-end-column="1" />
+            <state relative-caret-position="540">
+              <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sensor-2125-2017-10-29T02-00-19.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T02-00-19.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample-2017-10-29-00-59-22.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-59-22.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4.38004814E8-2125.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/xml/4.38004814E8-2125.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/error-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expath-pkg.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/expath-pkg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="113" lean-forward="false" selection-start-line="1" selection-start-column="113" selection-end-line="1" selection-end-column="113" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d3-temp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d3-temp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="110" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="111" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -66,6 +432,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>p1</find>
+      <find>2017-10-29T00:59:22</find>
+      <find>2017-10-29 00:59:22</find>
+      <find>1.</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/data/json</dir>
@@ -85,6 +454,9 @@
         <option value="$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T23-26-08.xml" />
         <option value="$PROJECT_DIR$/data-temp.tsv" />
         <option value="$PROJECT_DIR$/data-temp.json" />
+        <option value="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T02-00-16.json" />
+        <option value="$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T02-00-19.json" />
+        <option value="$PROJECT_DIR$/expath-pkg.xml" />
       </list>
     </option>
   </component>
@@ -109,8 +481,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,8 +501,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,7 +620,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -264,6 +636,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -278,7 +651,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -289,6 +661,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data-temp.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4304" lean-forward="false" selection-start-line="0" selection-start-column="4304" selection-end-line="0" selection-end-column="4304" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-temp.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T23-21-13.xml" />
     <entry file="file://$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T23-26-08.xml" />
     <entry file="file://$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T22-32-46.xml" />
@@ -301,17 +689,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/d3-temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="111" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data.tsv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data-temp.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="273" column="1" lean-forward="false" selection-start-line="273" selection-start-column="1" selection-end-line="273" selection-end-column="1" />
+        <state relative-caret-position="244">
+          <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T02-00-16.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/json/sensor-2125-2017-10-29T02-00-19.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-59-22.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/xml/4.38004814E8-2125.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expath-pkg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="113" lean-forward="false" selection-start-line="1" selection-start-column="113" selection-end-line="1" selection-end-column="113" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+    <div class="row" data-template="app:init">
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1 data-template="config:app-title"/>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Humidity</h3>
+                    <div id="line-chart" width="960" height="500"/> 
+                </div>
+            </div>
+        </div>
+    </div>
+     <script>
+        
+        // set the dimensions and margins of the graph
+        var margin = {top: 20, right: 20, bottom: 30, left: 50},
+            width = 960 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+        
+        // parse the date / time
+        // var parseTime = d3.timeParse("%Y");
+        //var dateTimeFormat = d3.timeFormat('%Y-%m-%dT%H:%M:%S');
+        // var parseTime = dateTimeFormat.parse();
+        // var parseTime = d3.timeFormat.iso();
+        
+        // set the ranges
+        // var x = d3.scaleTime().range([0, width]);
+        // var y = d3.scaleLinear().range([height, 0]);
+        var x = d3.scaleTime().rangeRound([0, width]);
+        var y = d3.scaleLinear().rangeRound([height, 0]);
+        
+        
+        // define the line
+        var valueline = d3.line()
+            .x(function(d) { return x(d.date); })
+            .y(function(d) { return y(d.temp); });
+        // define the line
+
+        // append the svg obgect to the body of the page
+        // appends a 'group' element to 'svg'
+        // moves the 'group' element to the top left margin
+        var svg = d3.select("#line-chart").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+            .attr("transform",
+                  "translate(" + margin.left + "," + margin.top + ")");
+        
+        function draw(data, temperature) {
+          
+          var data = data[temperature];
+          
+          // format the data
+          data.forEach(function(d) {
+              d.date = d3.isoParse(d.date);
+              d.temp = +d.temp;
+          });
+          
+          // sort years ascending
+          data.sort(function(a, b){
+            return a["date"]-b["date"];
+        	})
+         
+          // Scale the range of the data
+          x.domain(d3.extent(data, function(d) { return d.date; }));
+          // y.domain([0, d3.max(data, function(d) { return d.temp; })]);
+            y.domain(d3.extent(data, function(d) { return d.temp; }));
+          
+          // Add the valueline path.
+          svg.append("path")
+              .data([data])
+              .attr("fill", "none")
+              .attr("stroke", "steelblue")
+              .attr("stroke-linejoin", "round")
+              .attr("stroke-linecap", "round")
+              .attr("stroke-width", 1.5)
+              .attr("d", valueline);
+              
+          // Add the valueline path.
+          // Add the X Axis
+          svg.append("g")
+              .attr("transform", "translate(0," + height + ")")
+              .call(d3.axisBottom(x)).append("text")
+              .attr("fill", "#000")
+              .attr("x", 20)
+              .attr("y", -10)
+              .text("Date");
+        
+          // Add the Y Axis
+          svg.append("g")
+              .call(d3.axisLeft(y)).append("text")
+              .attr("fill", "#000")
+              .attr("transform", "rotate(-90)")
+              .attr("y", 6)
+              .attr("x", -60)
+              .attr("dy", "0.71em")
+              .attr("text-anchor", "end")
+              .text("Humidity (%)");
+          }
+        // Get the data
+        d3.json("data/data-Humidity.json", function(error, data) {
+          if (error) throw error;
+          
+          // trigger render
+          draw(data, "Humidity");
+        });
+    </script>
+</div>
