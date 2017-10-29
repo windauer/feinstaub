@@ -2,7 +2,6 @@ xquery version "3.1";
 
 import module namespace config="https://lasy.net/feinstaubsensor/config" at " /db/apps/feinstaub//modules/config.xqm";
 import module namespace http = "http://expath.org/ns/http-client";
-import module namespace xqjson="http://xqilla.sourceforge.net/lib/xqjson";
 
 declare variable $local:sensor-ids := ("2125","2126");
 

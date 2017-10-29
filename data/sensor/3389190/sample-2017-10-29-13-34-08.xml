@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sample timestamp="2017-10-29 13:34:08" location-id="1069" latitude="52.511" longitude="13.424" country="DE">
+    <sensor id="2125" sample-id="4.39421053E8" pin="1">
+        <type id="14" name="SDS011" manufacturer="Nova Fitness"/>
+        <P2 id="9.73316494E8">0.87</P2>
+    </sensor>
+    <sensor id="2126" sample-id="4.39421054E8" pin="7">
+        <type id="9" name="DHT22" manufacturer="various"/>
+        <temperature id="9.73316495E8">7.20</temperature>
+        <humidity id="9.73316496E8">90.00</humidity>
+    </sensor>
+</sample>

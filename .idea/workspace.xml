@@ -2,15 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3044e0a-d3eb-40f9-8a6a-060158ffd7b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/feinstaub-0.1.xar" afterPath="$PROJECT_DIR$/build/feinstaub-0.1.xar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-39-57.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-39-57.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-44-49.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-44-49.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-temp.tsv" afterPath="$PROJECT_DIR$/data-temp.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-42-23.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-42-23.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-47-15.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-47-15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-52-06.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-52-06.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-54-32.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-54-32.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-56-57.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-00-56-57.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-09-05.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-09-05.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-11-31.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-11-31.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-13-57.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-13-57.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-16-22.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-16-22.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-21-13.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-21-13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-38-12.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-01-38-12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-12-42.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-12-42.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-15-07.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-15-07.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-17-33.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-17-33.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-19-58.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-19-58.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-24-49.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-24-49.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-29-40.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-29-40.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-34-31.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-34-31.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-41-48.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-41-48.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-44-14.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-44-14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-51-32.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-51-32.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-53-58.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-53-58.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-56-23.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-56-23.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-58-49.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-10-58-49.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-01-14.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-01-14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-03-40.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-03-40.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-10-56.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-10-56.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-13-22.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-13-22.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-15-48.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-15-48.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-20-39.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-20-39.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-23-04.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-23-04.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-25-30.xml" afterPath="$PROJECT_DIR$/data/sensor/3389190/sample-2017-10-29-11-25-30.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cronjob.xql" afterPath="$PROJECT_DIR$/modules/cronjob.xql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scheduler.xql" afterPath="$PROJECT_DIR$/modules/scheduler.xql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo.xml" afterPath="$PROJECT_DIR$/repo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/tsv-generator.xql" afterPath="$PROJECT_DIR$/modules/tsv-generator.xql" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,21 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="data.tsv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data.tsv">
+      <file leaf-file-name="data-temp.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-temp.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data-temp.tsv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-temp.tsv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="691">
+              <caret line="273" column="1" lean-forward="false" selection-start-line="273" selection-start-column="1" selection-end-line="273" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -65,12 +84,14 @@
       <list>
         <option value="$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T23-26-08.xml" />
         <option value="$PROJECT_DIR$/data-temp.tsv" />
+        <option value="$PROJECT_DIR$/data-temp.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -88,8 +109,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,8 +127,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,37 +248,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -268,43 +289,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T23-21-13.xml">
+    <entry file="file://$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T23-21-13.xml" />
+    <entry file="file://$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T23-26-08.xml" />
+    <entry file="file://$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T22-32-46.xml" />
+    <entry file="file://$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T22-35-05.xml" />
+    <entry file="file://$PROJECT_DIR$/data/json/sensor-data-2017-10-28T22-28-16.xml" />
+    <entry file="file://$PROJECT_DIR$/data-temp.tsv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T23-26-08.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T22-32-46.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/json/sensor-2521-2017-10-28T22-35-05.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/json/sensor-data-2017-10-28T22-28-16.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="320" lean-forward="false" selection-start-line="0" selection-start-column="318" selection-end-line="0" selection-end-column="320" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -312,14 +305,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-temp.tsv">
+    <entry file="file://$PROJECT_DIR$/data-temp.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="691">
+          <caret line="273" column="1" lean-forward="false" selection-start-line="273" selection-start-column="1" selection-end-line="273" selection-end-column="1" />
           <folding />
         </state>
       </provider>
